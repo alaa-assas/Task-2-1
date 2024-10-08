@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #808080;
+    padding: 20px;
+}
+/****hero****/
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero i{
+    color: #017bff;
+    padding-bottom: 20px;
+}
+
+.hero h1{
+    color: #3c3738;
+}
+
+.hero h2{
+    color: #3c3738;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 400px;
+}
+.hero h3{
+    font-size: 15px;
+    text-align: center;
+    color: #333333;
+}
+
+.hero p{
+    text-align: center;
+    color: #333333;
+    margin: 0 90px;
+}
+.hero img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+/***main***/
+main{
+    box-shadow: 0 15px 25px grey;
+    margin: 10px 100px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+/***shared section style***/
+.box-info{
+    padding: 20px;
+    margin: 20px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+/***sections****/
+.experience .title, 
+.education .title, 
+.programming-skills .title, 
+.interests .title{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    color: #666764;
+}
+
+.contact-me .content,
+.experience .content, 
+.education .content, 
+.programming-skills .content, 
+.interests .content 
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.experience .content li,
+.education .content li,
+.programming-skills .content li,
+.interests .content li
+{
+    list-style: none;
+}
+
+.contact-me .content div,
+.education .content li, 
+.experience .content li,
+.programming-skills .content li , 
+.interests .content li
+{
+    background-color: #017bff;
+    border-radius: 10px;
+    padding: 30px;
+    min-width: 150px;
+    width: fit-content;
+    text-align: center;
+    color: #fff;
+}
+
+.contact-me .content div i,
+.interests .content li i
+{
+    color: #0b0c2a;
+}
+
+.contact-me .content div a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.follow-me h3,
+.contact-me h3{
+    margin-bottom: 20px;
+    color: #666764;
+}
+
+.follow-me-link a{
+     text-decoration: none;
+     padding: 10px;
+}
